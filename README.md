@@ -1,4 +1,4 @@
-# google_maps_drawer
+# Drawer.js
 a drawer for google maps api drawing maps with given coordinates and setting marker and polyline to track device as it's moving
 
 # Usage  
