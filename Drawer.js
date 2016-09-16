@@ -54,3 +54,12 @@ var Drawer=function(lat,long){
      }
  }
  //end of Drawer class
+
+ //usage
+ window.addEventListener("load",function(){
+document.write("<div id='map' style='width:500px;height:500px;'></div>");
+//initialize the drawer
+  var drawer=new Drawer(36.8065,10.1815);
+//adjust map position,marker,polyline by coordinates 
+  drawer.adjust(36.8180,10.1905);
+ });
